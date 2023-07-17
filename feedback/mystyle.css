@@ -13,7 +13,6 @@ body {
 
 h1 {
     padding-top: 0%;
-    /* Adjust the value to increase or decrease the distance */
     color: #ddd;
     width: 100%;
 }
@@ -76,9 +75,6 @@ label{
 button:hover{
     opacity: 5;
 }
-.star{
-color:red;font-size: 25%;
-}
 
 input[type=text]{
   width: 100%;
@@ -121,20 +117,6 @@ textarea[type=text]{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*input[type=text],
-input[type=password],
-textarea[type=text],
-input[type=email], {
-    width: 500%;
-    padding: 50px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}*/
-
 input[type=text]:focus,
 textarea[type=text]:focus {
     background-color: #ddd;
@@ -155,15 +137,6 @@ textarea[type=text]:focus {
 a {
     color: rgb(234, 237, 241);
 }
-.error-messages {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-
-
-
-/*h1{ background-color:black; color:white; width:50%; border-radius:30px; }*/
 
 .nav{ background-color:black; padding: 20px; width: 100%;}
 
@@ -174,10 +147,6 @@ a {
     padding-right: 90%;
     color: white;
 }
-
-/* https: //www.w3schools.com/howto/howto_custom_select.asp */
-
-
 .container {
   display: block;
   position: relative;
@@ -191,14 +160,12 @@ a {
   user-select: none;
 }
 
-/* Hide the browser's default radio button */
 .container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-/* Create a custom radio button */
 .checkmark {
   position: absolute;
   top: 20%;
@@ -210,29 +177,24 @@ a {
   border-radius: 50%;
 }
 
-/* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-/* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
   background-color: #2196F3;
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the indicator (dot/circle) */
 .container .checkmark:after {
   top: 50%;
   left: 50%;
